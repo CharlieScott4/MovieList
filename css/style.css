@@ -2,6 +2,7 @@ body{
     font-family: Tahoma;
     letter-spacing: 1px;
   background-color:black;
+
 }
 
 h3{
@@ -101,8 +102,8 @@ h1, h2{
 }
 
 #add-book button{
-    border: 1px solid #9361bf;
-    background: #9361bf;
+    border: 1px solid #e41515;
+    background: #e41515;
     padding: 10px 20px;
     font-size: 16px;
     display: inline-block;
@@ -137,5 +138,11 @@ h1, h2{
 
 
 .col3{
-<background-image: url=("../imgs/popcorn.png") >
-}
+  background-image: url("../imgs/popcorn.png");
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+  background-size: contain;
+  background-repeat: repeat-y;
+width: 2000px;
+height: 4000px;
+} 
